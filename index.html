@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Mali" rel="stylesheet">
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="menu">
+      <a href="#"><img src="http://sw-glass.co.uk/Images/showhidemenu.png" id="menu_hamburg"></a>
+      <div class="list">
+        <a href="gotejamento.html">Calculo de gotejamento</a>
+        <a href="#">Em Breve</a>
+        <a href="#">Em Breve</a>
+        <a href="#">Em Breve</a>
+      </div>
+    </div>
+    <h1>Cálculo de IMC</h1>
+    <table id="table_imc"> 
+      <tr>
+        <th>Nome</th>
+        <th>Idade</th>
+        <th>Peso</th>
+        <th>Altura(cm)</th>
+        <th>IMC</th>
+        <th>Status</th>
+      </tr>
+    </table>
+    <div class="space">
+    </div>
+    <div class="forms">
+    <form id="form_include">
+      <h1>Digite seus dados</h1>
+      <input type="text" placeholder="Nome" id="name">
+      <input type="number" placeholder="Idade" id="age" max="130" min="1">
+      <input type="number" placeholder="Peso" id="weight">
+      <input type="number" placeholder="Altura" id="high">
+      <div class="buttons">
+        <input type="button" value="Registrar" id="btn-register" onclick="register()">
+        <input type="reset" value="Limpar" id="btn-register">
+      </div>
+    </form>
+    </div>
+  </body>
+</html>

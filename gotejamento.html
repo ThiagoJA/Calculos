@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style2.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Mali" rel="stylesheet">
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="menu">
+      <a href="#"><img src="http://sw-glass.co.uk/Images/showhidemenu.png" id="menu_hamburg"></a>
+      <div class="list">
+        <a href="index.html">Calculo de IMC</a>
+        <a href="#">Em Breve</a>
+        <a href="#">Em Breve</a>
+        <a href="#">Em Breve</a>
+      </div>
+    </div>
+    <h1>Cálculo de Gotejamento</h1>
+    <div class="space">
+      Numero de gotas/minuto:
+      <input type="text" id="result" disabled>
+      Numero de Microgotas/minuto:
+      <input type="text" id="result2" disabled>
+    </div>
+    <div class="forms">
+    <form id="form_include">
+      <h1>Digite seus dados</h1>
+      <input type="number" placeholder="Quantidade(ml)" id="qnt">
+      <input type="number" placeholder="Tempo(minutos)" id="time">
+      <div class="buttons">
+        <input type="button" value="Calcular" id="btn-register" onclick="calcular()">
+        <input type="reset" value="Limpar" id="btn-register">
+      </div>
+    </form>
+    </div>
+  </body>
+</html>

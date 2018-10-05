@@ -1,0 +1,89 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Mali', cursive;
+}
+body{
+  background: radial-gradient(circle, #e5f9fc, lightblue);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.menu{
+  height: 0px;
+  width: 70px;
+}
+.list{
+  top: 4%;
+  position: absolute;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  visibility: hidden;
+}
+.list a{
+  text-decoration: none;
+  padding: 14px 18px;
+  background-color: #7dc8e0;
+  color: black;
+}
+.list a:hover{
+  background-color: #26a4ce;
+}
+#menu_hamburg{
+  position: absolute;
+  width: 50px;
+  top: -1%;
+}
+.menu:hover .list{
+  visibility: visible;
+}
+h1, table{
+  text-align: center;
+}
+th, td{
+  border: 1px solid black;
+}
+.forms{
+  display: flex;
+  justify-content: center;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+.space{
+  height: 20vh;
+}
+input{
+  opacity: 0.8;
+  padding: 14px 16px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 1px solid #052c05;
+  transition: all 0.3s;
+  outline: none;
+}
+input:focus{
+  padding: 15px 17px;
+  border: 2px solid #011401;
+  opacity: 1;
+}
+.buttons{
+  display: flex;
+  justify-content: space-around;
+}
+#btn-register{
+  cursor: pointer;
+  background-color: #6ba6ff;
+  border: 0px;
+  padding: 8px 11px;
+  outline: none;
+}
+#btn-register:hover{
+  background-color: #448fff;
+}
+#btn-register:active{
+  background-color: #3f8cff;;
+}
